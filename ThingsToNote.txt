@@ -1,0 +1,60 @@
+Custom Classifications:
+
+Readmitted:
+
+-1 = NO
+1 = Readmitted, 30> both <30
+
+
+
+
+
+Chose to use logistical regression,
+- Best used when the dependent variable is dichotomous/binary in nature.
+- Decision Trees are more susceptible to overfitting on larger datasets as the number of attributes increases,
+- Decision Trees can draw relationships between otherwise independent variables.
+
+
+
+
+
+Initial Run:
+Cito and Examide had Coefs of 0, removed from core model.
+
+Uncontrollable factors:
+Women are more likely to be re-admitted.
+
+
+Hypoglycemics
+	Insulin
+	Metformin
+
+Inpatient = Hospital Admission
+Outpatient = Clinic, Doctor's Office.
+
+	- Women struggle more with obesity.
+Older people are more likely to being re-admitted.
+	- Older people struggle more with obesity.
+Race
+	- Asian (1.57215) (641)
+	- Hispanic (7.34002e-01) (2,037) 
+	- White (5.82585 e-02) (76,099)
+	- African American (-5.99415923e-02) (19210)
+
+	Presence of ethnicity is way too imbalanced to make a decent decision.
+	Cannot be concluded.
+
+
+
+Controllable factors:
+People who don't take diabetes medication are more likely to be re-admitted.
+	- SURPRISE!
+
+Important Diabetes Tests:
+1. HbA1c – Long Term Average Blood Sugar
+
+
+
+
+
+
